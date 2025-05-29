@@ -59,34 +59,34 @@
         </p>
         <h3>Solution:</h3>
         <p>
-          Distance \[D = \sqrt{x^2+y^2}\]
-                   \[D^2 = x^2+y^2\]
+          Distance, \(D = \sqrt{x^2+y^2}\)<br>
+                   \(D^2 = x^2+y^2\)<br>
 
-          For distance from P always increasing, \[\frac{dD}{dt} > 0\]
-          (To get an easier calculation, we use \[\frac{d(D^2)}{dt} > 0\]
+          For distance from P always increasing, \(\frac{dD}{dt} > 0\)<br>
+          (To get an easier calculation, we use \(\frac{d(D^2)}{dt} > 0\))<br>
 
-          \[\(D^2 = (u \cos\theta \cdot t)^2 + (u \sin\theta \cdot t - \frac{1}{2}gt^2)^2\) 
-          \(= u^2\cos^2\theta \cdot t^2 + u^2\sin^2\theta \cdot t^2 + \frac{1}{4}g^2t^4 - u\sin\theta gt^3\) 
-          \(= u^2 t^2 - u\sin\theta gt^3 + \frac{1}{4}g^2t^4\)\]
+          \(D^2 = (u \cos\theta \cdot t)^2 + (u \sin\theta \cdot t - \frac{1}{2}gt^2)^2\)<br>
+          \(= u^2\cos^2\theta \cdot t^2 + u^2\sin^2\theta \cdot t^2 + \frac{1}{4}g^2t^4 - u\sin\theta gt^3\)<br>
+          \(= u^2 t^2 - u\sin\theta gt^3 + \frac{1}{4}g^2t^4\)<br>
 
-          \[\(\frac{d(D^2)}{dt} = 2u^2t - 3u\sin\theta gt^2 + g^2t^3\) 
-          \(= t(2u^2 - 3u\sin\theta g t + g^2t^2) > 0\)\]
+          \(\frac{d(D^2)}{dt} = 2u^2t - 3u\sin\theta gt^2 + g^2t^3\) 
+          \(= t(2u^2 - 3u\sin\theta g t + g^2t^2) > 0\)<br>
 
-          \[For \(t>0\), 
+          For \(t>0\), 
           So, \(2u^2 - 3u\sin\theta g t + g^2t^2 \ge 0\) 
-          \(g^2t^2 - 3u\sin\theta g t + 2u^2 \ge 0\)\]
+          \(g^2t^2 - 3u\sin\theta g t + 2u^2 \ge 0\)<br>
 
-          \[\(\Delta = (3u\sin\theta g)^2 - 4 \cdot g^2 \cdot 2u^2\) 
+          \(\Delta = (3u\sin\theta g)^2 - 4 \cdot g^2 \cdot 2u^2\) 
           \(= 9u^2\sin^2\theta g^2 - 8g^2u^2\) 
-          \(= u^2g^2(9\sin^2\theta - 8) < 0\)\]
+          \(= u^2g^2(9\sin^2\theta - 8) < 0\)<br>
 
-          \[For \(u^2g^2 > 0\) 
+          For \(u^2g^2 > 0\) 
           So, \(9\sin^2\theta - 8 < 0\) 
           \(\sin^2\theta < \frac{8}{9}\) 
-          \(\sin\theta < \frac{2\sqrt{2}}{3}\)\]
+          \(\sin\theta < \frac{2\sqrt{2}}{3}\)<br>
 
-          \[So, \(\theta_{max} = \arcsin\left(\frac{2\sqrt{2}}{3}\right) \approx 70.5^{\circ}\)
-          (no real roots)\]
+          So, \(\theta_{max} = \arcsin\left(\frac{2\sqrt{2}}{3}\right) \approx 70.5^{\circ}\)
+          (no real roots)<br>
         </p>
         <pre><code>
           // If your solution involves code, you can put it here.
