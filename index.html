@@ -115,5 +115,27 @@
         &copy; 2025 pengo820. All rights reserved.
       </p>
     </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        
+        const buttons = document.querySelectorAll('.toggle-solution-btn');
+
+        buttons.forEach(button => {
+          button.addEventListener('click', function() {
+            
+            const solutionContainer = this.nextElementSibling;
+            
+            solutionContainer.classList.toggle('show');
+
+           
+            if (solutionContainer.classList.contains('show')) {
+              this.textContent = 'Hide Solution';
+            } else {
+              this.textContent = 'Display solution';
+            }
+          });
+        });
+      });
+    </script>         
   </body>
   </html>
